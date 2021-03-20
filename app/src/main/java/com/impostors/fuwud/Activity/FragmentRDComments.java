@@ -99,6 +99,8 @@ public class FragmentRDComments extends Fragment {
                             databaseReference.child("restaurants").child(restaurantId).child("comments").push().setValue(comment);
                             commentSection.setText(null);
 
+                            databaseReference.child("restaurants").child(restaurantId).child("comments").push().setValue(comment);
+                            commentSection.setText(null);
 
                         }
                     }
